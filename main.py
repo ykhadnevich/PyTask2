@@ -20,11 +20,12 @@ while True:
         # Process and print user information
         for user in user_data_list:
             print("User Information:")
-            print(f"User ID: {user.get('userId')}")
+            
             print(f"Nickname: {user.get('nickname')}")
-            print(f"First Name: {user.get('firstName')}")
-            print(f"Last Name: {user.get('lastName')}")
-            print(f"Registration Date: {user.get('registrationDate')}")
+            
+            
+            print(f"Last seen: {user.get('lastSeenDate')}")
+
             print(f"Is Online: {user.get('isOnline')}")
             print()
             
